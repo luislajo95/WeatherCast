@@ -1,6 +1,9 @@
 {
   "images" : [
-
+    {
+      "filename" : "cloudy.jpeg",
+      "idiom" : "universal"
+    }
   ],
   "info" : {
     "author" : "xcode",

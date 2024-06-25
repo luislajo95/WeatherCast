@@ -1,6 +1,9 @@
 {
   "images" : [
-
+    {
+      "filename" : "rainy.jpeg",
+      "idiom" : "universal"
+    }
   ],
   "info" : {
     "author" : "xcode",

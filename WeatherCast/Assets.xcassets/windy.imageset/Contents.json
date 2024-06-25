@@ -1,6 +1,9 @@
 {
   "images" : [
-
+    {
+      "filename" : "windy.jpeg",
+      "idiom" : "universal"
+    }
   ],
   "info" : {
     "author" : "xcode",
