@@ -58,13 +58,12 @@ struct VisualCrossing: View {
                                     }
                             }
                             HStack{
-                                Text("\(weather.datetime)")
                                 
+                                Text("\(weather.datetime)")
                                     .padding()
                                     .multilineTextAlignment(.center)
                                     .frame(maxWidth: .infinity, alignment:.center)
                                 
-                     
                             }
                             HStack{
                                 
@@ -77,21 +76,16 @@ struct VisualCrossing: View {
                                     .padding()
                                     .multilineTextAlignment(.leading)
                                     .frame(maxWidth: .infinity, alignment:.leading)
-                                
-                     
+                            
                             }
                             HStack{
-                               
+                                
                                 Text("Cond: \(current.icon)")
                                     .padding()
                                     .multilineTextAlignment(.leading)
                                     .frame(maxWidth: .infinity, alignment:.leading)
                                 Text("")
-                          
                                 
-    
-                            
-                              
                             }
                             HStack{
                                
@@ -111,7 +105,7 @@ struct VisualCrossing: View {
                     .padding()
                 }
             }
-            .font(.system(size: 12))
+            .font(.system(size: 14))
             .padding()
         }
     }
