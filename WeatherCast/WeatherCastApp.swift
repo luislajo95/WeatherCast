@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
-struct WeatherCastApp: App {
+struct WeatherCast: App {
+    @StateObject private var favoritesManager = FavoritesManager()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+                .environmentObject(favoritesManager)
         }
     }
 }
